@@ -1,0 +1,6 @@
+name: TL
+version: 1.0.0
+antigen: wr3p\i18ntl
+api: 5.0.0
+author: wr3p
+description: Translator for your PocketMine-MP plugins

@@ -1,0 +1,14 @@
+{
+  "name": "wr3p/translationmanager",
+  "description": "Translation API library for PocketMine-MP",
+  "minimum-stability": "dev",
+  "license": "unlicense",
+  "require-dev": {
+    "pocketmine/pocketmine-mp": "5.35.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "wr3p\\i18ntl\\": "src/wr3p/i18ntl/"
+    }
+  }
+}
