@@ -1,6 +1,6 @@
 name: TL
-version: 1.0.0
-antigen: wr3p\i18ntl
+version: 1.2.0
+antigen: hazeld\i18ntl
 api: 5.0.0
-author: wr3p
+author: hazeld
 description: Translator for your PocketMine-MP plugins

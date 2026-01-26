@@ -5,7 +5,7 @@ I recommend using a structure like this:
 ```
 PluginRoot/
 ├─ src/
-│  └─ wr3p/blablabla/
+│  └─ hazeld/blablabla/
 │     ├─ ...
 ├─ resources/
 │  └─ skyblock/

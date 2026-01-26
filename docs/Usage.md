@@ -4,14 +4,14 @@
 ### Initializing TL
 
 ```php
-$tl = new TL(); // automatically loads 'common'
-$tl->init(defaultLanguage: "blabla_BLA"); // en_US is default
+$tl = new TL();
+$tl->init(defaultLanguage: "blabla_BLA", fallbackLanguage: "blabla");
 ```
 
 ### Translating a Key
 
 ```php
-echo $tl->translate("common", "en_US", "messages.welcome", ["player" => "Alex"]); // sorry Steve :D
+echo $tl->translate("my_project", "en_US", "messages.welcome", ["player" => "Alex"]); // sorry Steve :D
 ```
 
 ### Adding Another Project

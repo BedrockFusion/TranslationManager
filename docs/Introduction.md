@@ -11,10 +11,10 @@ It works by loading JSON translation files per project and flattening nested key
 ## Features
 
 - **Multi-project support** – separate translations for different plugins or modules.
-- **Multi-language support** – automatically selects default language and allows per-language translation.
+- **Multi-language support** – uses requested language with optional fallback and default language.
 - **Parameter replacement** – supports `{{param}}` placeholders in strings.
 - **Safe loading** – prevents PocketMine-MP crashes on invalid JSON, missing files, or malformed data.
-- **Automatic fallback** – if a translation is missing, it falls back to default language or a key placeholder.
+- **Automatic fallback** – if a translation is missing, it falls back to fallback/default language or a key placeholder.
 
 ---
 
@@ -24,7 +24,7 @@ It works by loading JSON translation files per project and flattening nested key
 2. Include the namespace in your plugin:
 
 ```php
-use wr3p\i18ntl\TL;
+use hazeld\i18ntl\TL;
 ```
 
 ## Others
